@@ -1,0 +1,74 @@
+#border-solid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;        
+}
+#border-solid {
+    border-style: solid;
+    width: 60%;
+    margin: 30px;
+}
+#border-solid label {      
+    width: 90%;
+    margin: 30px;
+    margin-top: 75px;
+    padding: 40px;    
+    background-color: lightgray;
+    font-size: 26px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;   
+    text-align: center;
+}
+#border-solid input {
+    width: 90%;     
+    margin: 0px;
+    padding: 30px;    
+    background-color: lightgrey;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: text; 
+    max-height: 200px;
+}
+#submit {
+    width: 50%;
+    margin: 30px;
+    padding: 20px;
+    background-color: lightseagreen;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    transition: filter 0.3s;    
+}
+#subimt:hover {
+    filter: brightness(0.9);
+}
+p { 
+    width: 50%;
+    margin: 30px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(219, 221, 221);
+    border: 3px;
+    text-align: center;  
+    word-wrap: break-word;   
+}
+.decimal {
+    width: 50%;
+    margin: 30px;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(219, 223, 223);
+    text-align: center;
+    word-wrap: break-word;
+}
